@@ -1,6 +1,6 @@
 # Peters_Surgical
 
-<h2>Live Link-  </h2> 
+<h2>Live Link- https://peters-sergical-1krm5adq2-ashukmt.vercel.app/ </h2> 
 <h3>Project Presentation Link -  </h3>
 
 
@@ -29,6 +29,6 @@ Chart.js:  JavaScript library for creating interactive charts and graphs.<br/>
 <br/><br/>
 
 <h2>Some Screenshots of the website-</h2>
-<img src='https://i.ibb.co/ZSzr33d/Screenshot-2024-01-05-133631.png' alt='img' />
-<img src='https://i.ibb.co/MPbvFKc/Screenshot-2024-01-05-133940.png' alt='img' />
-<img src='https://i.ibb.co/tsfT7ZW/Screenshot-2024-01-05-134608.png' alt='img' />
+![Screenshot 2024-01-10 181436](https://github.com/ashukmt/Peters_Surgical/assets/132146622/f7a780de-b520-42b1-9a12-7414b4b24bd0)
+![Screenshot 2024-01-10 181425](https://github.com/ashukmt/Peters_Surgical/assets/132146622/1718f391-ef23-4b6d-aa8b-9ec5f8a7ac20)
+
