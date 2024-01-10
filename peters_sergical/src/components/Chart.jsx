@@ -1,13 +1,36 @@
 import React, { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
-function Chart() {
+function Chart({num1}) {
+  console.log(num1)
   const [cartHeight] = useState(400);
+  const[emission2022,setEmission2022] = useState([])
+  
+  let num = num1;
+  useEffect(()=>{
+   if(num == 3){
+    var emm22 = [1202,1500,2000,4027,5050,9023,2222,5890,3094,9758,8943,6787]
+    setEmission2022(emm22)
+   }
+   else if(num == 6){
+    var emm22 = [4202,1563,3500,8667,5440,9035,5322,2390,4294,9518,1243,3277]
+    setEmission2022(emm22)
+   }
+   else if(num == 9){
+    var emm22 = [9035,5322,2390,4202,1563,3500,8667,5440,4294,9518,1243,3277]
+    setEmission2022(emm22)
+   }
+   else{
+    var emm22 = [4294,9518,1243,3277,8035,2322,4390,4202,1563,3500,8667,5440]
+    setEmission2022(emm22)
+   }
+  },[num])
+  console.log(emission2022)
   const [series, setSeries] = useState([
     {
       name: "Emissions",
       type: "column",
-      data: [1202,1500,2000,4027,5050,9023,2222,5890,3094,9758,8943,6787],
+      data: emission2022
     },
     {
       name: "R/E",
@@ -68,7 +91,7 @@ function Chart() {
       {
         name: "Emissions-2023",
         type: "column",
-        data: [8457,3455,6576,3544,1234,9765,8765,2344,8675,2442,8766,1987],
+        data: emission2022
       },
       {
         name: "Emissions-2022",
@@ -86,7 +109,7 @@ function Chart() {
         data: [42,95,76,59,30,61,86,53,96,20,36,99],
       },
     ]);
-  }, []);
+  }, [emission2022]);
 
   return (
     <div className="char_div">

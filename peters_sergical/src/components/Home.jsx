@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PieChart from "./PieChart";
 import Table from "./Table";
 import {Flex } from "@chakra-ui/react";
@@ -7,6 +7,7 @@ import Chart from "./Chart";
 // import "./App.css";
 
 const Home = ({category}) => {
+  const [idx,setIdx] = useState(0);
   return (
     <div className="main_div">
       <div className="top">
@@ -90,11 +91,11 @@ const Home = ({category}) => {
 
       <div className="filter_div">
         <p>Show Time:</p>
-        <select className="filter_tag">
-          <option value="date1">Jan'23 - Dec'23</option>
-          <option value="date2">Feb'23 - Jun'23</option>
-          <option value="date3">Mar'23 - Sept'23</option>
-          <option value="date4">Jun'23 - Dec'23</option>
+        <select onChange={(e)=>setIdx(e.target.value)} className="filter_tag">
+          <option value="0">Jan'23 - Dec'23</option>
+          <option value="3">Feb'23 - Jun'23</option>
+          <option value="6">Mar'23 - Sept'23</option>
+          <option value="9">Jun'23 - Dec'23</option>
         </select>
       </div>
 
@@ -212,7 +213,7 @@ const Home = ({category}) => {
 
       <div className="chart_main_div">
         <div>
-          <Chart/>
+          <Chart num1={idx}/> 
         </div>
       </div>
 
