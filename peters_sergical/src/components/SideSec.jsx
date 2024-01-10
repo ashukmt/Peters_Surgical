@@ -50,11 +50,12 @@ const SideSec = ({setCategory}) => {
                   fontSize={18}
                   color={"white"}
                   border={"none"}
+                  opacity={3}
                   rightIcon={<ChevronDownIcon />}
                 >
                   Energy
                 </MenuButton>
-                <MenuList background={"#02AB6C"}>
+                <MenuList className="menu_list" background={"#02AB6C"}>
                   <MenuItem
                     background={"#02AB6C"}
                     textColor={"white"}
@@ -177,16 +178,18 @@ const SideSec = ({setCategory}) => {
           <div className="emenu_div">
             <Menu>
               <MenuButton
-                as={Button}
+                className="ene_btn"
                 background={"#181818"}
                 fontSize={18}
                 color={"white"}
                 border={"none"}
-                rightIcon={<ChevronDownIcon />}
+                marginTop={3}
+                // rightIcon={<ChevronDownIcon />}
               >
                 Energy
               </MenuButton>
             </Menu>
+
           </div>
         </div>
 

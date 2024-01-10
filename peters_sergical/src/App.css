@@ -438,3 +438,16 @@ th, td {
 .round_svg{
   margin-top: 3px;
 }
+
+.chart_main_div{
+  width: 95%;
+  margin-top: 30px;
+}
+
+.menu_list{
+  opacity: 3;
+}
+
+.ene_btn{
+  opacity: 1;
+}

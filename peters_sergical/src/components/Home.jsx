@@ -2,6 +2,8 @@ import React from "react";
 import PieChart from "./PieChart";
 import Table from "./Table";
 import {Flex } from "@chakra-ui/react";
+import Chart from "./Chart";
+
 // import "./App.css";
 
 const Home = ({category}) => {
@@ -205,6 +207,12 @@ const Home = ({category}) => {
         <div className="fourth_box">
           <p className="total_p">Total number of reached suppliers</p>
           <p className="num_p">143</p>
+        </div>
+      </div>
+
+      <div className="chart_main_div">
+        <div>
+          <Chart/>
         </div>
       </div>
 
