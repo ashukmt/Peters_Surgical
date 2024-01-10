@@ -2,7 +2,8 @@ import { Menu, MenuButton, MenuList, MenuItem, Button, Text } from "@chakra-ui/r
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import React from "react";
 
-const SideSec = () => {
+const SideSec = ({setCategory}) => {
+
   return (
     <div className="sideSec_div">
       <div className="logo_div">
@@ -60,6 +61,7 @@ const SideSec = () => {
                     width={120}
                     height={40}
                     fontSize={18}
+                    onClick={()=>setCategory('Category-1')}
                   >
                     Category-1
                   </MenuItem>
@@ -68,6 +70,7 @@ const SideSec = () => {
                     textColor={"white"}
                     height={40}
                     fontSize={18}
+                    onClick={()=>setCategory('Category-2')}
                   >
                     Category-2
                   </MenuItem>
@@ -76,6 +79,7 @@ const SideSec = () => {
                     textColor={"white"}
                     height={40}
                     fontSize={18}
+                    onClick={()=>setCategory('Category-3')}
                   >
                     Category-3
                   </MenuItem>
@@ -84,6 +88,7 @@ const SideSec = () => {
                     textColor={"white"}
                     height={40}
                     fontSize={18}
+                    onClick={()=>setCategory('Category-4')}
                   >
                     Category-4
                   </MenuItem>
@@ -92,6 +97,7 @@ const SideSec = () => {
                     textColor={"white"}
                     height={40}
                     fontSize={18}
+                    onClick={()=>setCategory('Category-5')}
                   >
                     Category-5
                   </MenuItem>
