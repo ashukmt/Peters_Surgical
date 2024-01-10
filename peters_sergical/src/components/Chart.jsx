@@ -1,9 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
 function Chart() {
-  const [cartHeight, setCartHeight] = useState(400);
+  const [cartHeight] = useState(400);
   const [series, setSeries] = useState([
     {
       name: "Emissions",
@@ -22,7 +21,7 @@ function Chart() {
     },
   ]);
 
-  const [options, setOptions] = useState({
+  const [options] = useState({
     chart: {
       height: cartHeight,
       type: "line",
