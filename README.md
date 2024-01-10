@@ -28,7 +28,9 @@ Chart.js:  JavaScript library for creating interactive charts and graphs.<br/>
 
 <br/><br/>
 
-<h2>Some Screenshots of the website-</h2>
-![Screenshot 2024-01-10 181436](https://github.com/ashukmt/Peters_Surgical/assets/132146622/f7a780de-b520-42b1-9a12-7414b4b24bd0)
-![Screenshot 2024-01-10 181425](https://github.com/ashukmt/Peters_Surgical/assets/132146622/1718f391-ef23-4b6d-aa8b-9ec5f8a7ac20)
+<h2>Some Screenshots of the website-</h2>      
+
+<img src='https://i.ibb.co/1Jrw7Qr/Screenshot-2024-01-10-181425.png' alt='img' />   
+<img src='https://i.ibb.co/4VpBpww/Screenshot-2024-01-10-181436.png' alt='img' />
+
 
